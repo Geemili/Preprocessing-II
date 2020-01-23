@@ -169,7 +169,7 @@ img {
   margin: 0 auto;
 }
 nav {
-  height: 50px;
+  height: 60px;
   border-bottom: 2px dashed #C0C0C0;
   padding-top: 1%;
 }
@@ -185,7 +185,10 @@ nav .links {
   align-items: center;
 }
 nav a {
+  padding: 0 10%;
+  white-space: nowrap;
   color: black;
+  font-size: 1.4rem;
   text-decoration: none;
 }
 .footer {
