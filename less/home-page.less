@@ -30,6 +30,8 @@
                 border-radius: 10px;
             }
         }
+
+        .mobileContentColumns();
     }
 
     .inverse-content {
@@ -44,6 +46,10 @@
         .img-content {
             padding-right: 1%;
             padding-left: 0;
+
+            @media @mobile {
+                order: 1;
+            }
         }
     }
 
@@ -53,6 +59,10 @@
 
         img {
             border-radius: @rounded-border;
+        }
+
+        @media @mobile {
+            width: 100%;
         }
     }
 
