@@ -199,6 +199,7 @@ nav .links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  width: 100%;
 }
 @media ( max-width: 500px ) {
   nav .links {
@@ -208,11 +209,17 @@ nav .links {
   }
 }
 nav a {
+  display: block;
   padding: 0 10%;
   white-space: nowrap;
   color: black;
   font-size: 1.4rem;
   text-decoration: none;
+}
+@media ( max-width: 500px ) {
+  nav a {
+    padding: 0;
+  }
 }
 .footer {
   width: 100%;

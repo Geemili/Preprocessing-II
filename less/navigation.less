@@ -21,6 +21,7 @@ nav {
 
     .links {
         .displayFlex(flex-end, center);
+        width: 100%;
 
         @media @mobile {
             .displayFlex(space-around, center);
@@ -28,10 +29,15 @@ nav {
     }
 
     a {
+        display: block;
         padding: 0 10%;
         white-space: nowrap;
         color: @link-bg;
         font-size: @nav-link-size;
         text-decoration: none;
+
+        @media @mobile {
+            padding: 0;
+        }
     }
 }
