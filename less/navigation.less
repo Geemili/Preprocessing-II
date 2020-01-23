@@ -1,1 +1,21 @@
 // Navigation Styles here
+
+nav {
+    height: 50px;
+    border-bottom: @border-style;
+    padding-top: 1%;
+
+    .container {
+        .displayFlex(space-between);
+        height: 100%;
+    }
+
+    .links {
+        .displayFlex(flex-end, center);
+    }
+
+    a {
+        color: @link-bg;
+        text-decoration: none;
+    }
+}
