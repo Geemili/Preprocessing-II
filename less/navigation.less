@@ -5,13 +5,26 @@ nav {
     border-bottom: @border-style;
     padding-top: 1%;
 
+    @media @mobile {
+        height: initial;
+    }
+
     .container {
         .displayFlex(space-between);
         height: 100%;
+
+        @media @mobile {
+            flex-direction: column;
+            padding-bottom: 1%;
+        }
     }
 
     .links {
         .displayFlex(flex-end, center);
+
+        @media @mobile {
+            .displayFlex(space-around, center);
+        }
     }
 
     a {
