@@ -200,13 +200,13 @@ nav .links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 100%;
 }
 @media ( max-width: 500px ) {
   nav .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
   }
 }
 nav a {
